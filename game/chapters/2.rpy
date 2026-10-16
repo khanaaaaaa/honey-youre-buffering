@@ -33,4 +33,24 @@ label chapter2:
             mc "(His answer is immediate.)"
             noah "Why would you ask me that?"
 
+    mc "I suggest we go to a bookstore across town."
+    noah "Our cafe closes early today, doesn't it?"
+    mc "We are not going to a cafe."
+    noah "Right.. the bookstore."
+    mc "(He says it like he's reading a correction on an invisible screen.)"
+    mc "(Inside, I point at a ridiculous book cover.)"
+    mc "Would you buy this for me?"
+    noah "Of course, you lo-"
+    mc "(He stops.)"
+    noah "You love books."
+    mc "I do?"
+    noah "Don't you?"
+    if suspicion >= 2:
+        noah "Have I done something wrong?"
+        mc "I don't know yet."
+    else:
+        noah "Hey, don't overthink things."
+    
+    mc "For the first time, Noah looks genuinely unsure."
+
     jump chapter3
