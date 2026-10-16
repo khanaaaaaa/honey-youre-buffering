@@ -34,6 +34,31 @@ label chapter3:
             noah "I love you too."
             noah "I love you too."
 
-    ,c "(A sharp cackle cuts through the call.)"
+    mc "(A sharp cackle cuts through the call.)"
+    noah "I'm sorry, my phone's being weird."
+    noah "I'm here."
+    noah "I'm here."
+    noah "I'm here."
+
+    menu:
+        "Stay on the call":
+            $ stayed_on_call = True
+            $ memory += 1
+            mc "I'm not hanging up, talk to me."
+            noah "I don't know what I'm supposed to say."
+            noah "Please don't make me start over."
+
+        "Hang up.":
+            $ suspicion += 1
+            mc "See you tomorrow."
+            mc "(The call ends.)"
+
+    mc "(The next morning, I check my call history.)"
+    mc "(There is no call from Noah.)"
+    mc "(But a new text is waiting.)"
+    noah "Good morning, sweetheart. Did you sleep well?"
+
+    if stayed_on_call:
+        narrator "{color=#ff718d}please remember me{/color}"
 
     jump chapter4
