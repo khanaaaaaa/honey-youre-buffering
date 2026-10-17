@@ -10,7 +10,7 @@ label chapter2:
     mc "(The same message, at the same time.)"
 
     narrator "Later that day.."
-    scene bg cafe at center_char
+    scene bg cafe at bg_fit
 
     mc "(At lunch, I decided to test something.)"
     mc "Hey, remember what I told you yesterday about my class?"

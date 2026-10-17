@@ -37,7 +37,7 @@ label chapter4:
     noah "Everything."
     noah "I don't want to forget you again."
     hide noahneutraltalk
-    show noaneutralquiet at center_char
+    show noahneutralquiet at center_char
     mc "Again?"
     mc "Tell me what's happening."
     hide noahneutralquiet
@@ -45,4 +45,4 @@ label chapter4:
     noah "I don't know how much of this is real anymore."
     noah "But I know I don't want to lose you again."
 
-    jump chapter5
+    jump chapter_5

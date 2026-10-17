@@ -71,7 +71,7 @@ label chapter1:
             hide noahsmiletalk
             show noahsmilequiet at center_char
             mc "Tell me something I've never heard before."
-            hide noashsmilequiet
+            hide noahsmilequiet
             show noahsmiletalk at center_char
             noah "Something new."
             hide noahsmiletalk
@@ -88,7 +88,7 @@ label chapter1:
             noah "Because I feel it everyday"
     
     hide noahsmiletalk
-    show noashsmilequiet at center_char
+    show noahsmilequiet at center_char
     mc "When we leave, Noah takes my hand."
     hide noahsmilequiet
     show noahsmiletalk at center_char

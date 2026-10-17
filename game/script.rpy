@@ -14,7 +14,8 @@ image bg room = "images/room.avif"
 image bg cafe = "images/cafe.avif"
 
 transform bg_fit:
-    fit "cover"xalign 0.5
+    fit "cover"
+    xalign 0.5
     yalign 0.5
 
 transform center_char:
@@ -25,6 +26,7 @@ transform center_char:
 default affection = 0
 default suspicion = 0
 default memory = 0
+default stayed_on_call = False
 
 label start:
     scene black
