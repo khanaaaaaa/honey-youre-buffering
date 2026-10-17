@@ -4,6 +4,8 @@ label chapter_5:
 
     centered "{size=+8}chapter 5: one last time{/size}"
 
+    scene bg room at bg_fit
+
     mc "(Noah sent me a file.)"
     mc "(It was called relationship_backup.)"
     mc "(Inside were dozens of text files, and each one had a date.)"

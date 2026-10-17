@@ -6,6 +6,7 @@ label chapter3:
     pause 1.0
 
     narrator "Wednesday, 11:47 PM"
+    scene bg room at center_char
     mc "(Noah calls me.)"
     noah "Hi, honey."
     mc "You're still awake?"

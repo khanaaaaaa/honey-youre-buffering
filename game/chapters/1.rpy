@@ -5,6 +5,8 @@ label chapter1:
     centered "{size=+8}CHAPTER 1{/size}\n{size=+3}good morning, sweetheart{/size}"
     pause 1.0
 
+    scene bg room at bg_fit
+
     narrator "Monday, 8:03 AM"
     narrator "My phone buzzes beside my pillow."
     noah "Good morning, sweetheart. Did you sleep well?"
@@ -30,6 +32,9 @@ label chapter1:
     with dissolve
 
     narrator "Later that afternoon"
+
+    scene bg cafe at bg_fit
+
     mc "We meet at our usual cafe."
     show noahsmiletalk at center_char
     noah "There she is, my favorite person."

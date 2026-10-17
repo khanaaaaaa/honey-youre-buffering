@@ -4,6 +4,8 @@ label chapter6:
 
     centered "{size=+8}chapter 6: honey, you're buffering{/size}" 
 
+    scene bg cafe at bg_fit
+
     mc "(Noah was waiting in our usual cafe.)"
     mc "(Everything looked exactly as it always had.)"
     show noahneutralquiet at center_char
